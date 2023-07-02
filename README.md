@@ -1,7 +1,8 @@
 # ESP32-Heos-Control
 Simple to use Heos Control for ESP32 / Arduino IDE
-It is developed for controlling the heos inside an Denon AVR.
-It uses HardwareTimer 2!
+It is developed for controlling the heos inside an Denon AVR.  
+It uses HardwareTimer 2!  
+
 
 depencies:
 ```
@@ -114,4 +115,5 @@ if you want to change the Volume to say 40:
 HEOS.Denon.Volume = 40;  
 ```  
   
-for a more advanced example with a 4x20 lcd_i2c and 5 Buttons, have a look at the example folder
+for a more advanced example with a 4x20 lcd_i2c and 5 Buttons, have a look at the example folder  
+The LiquidCrystal_I2C library is modified for automated sroll text with HardwareTimer!  
