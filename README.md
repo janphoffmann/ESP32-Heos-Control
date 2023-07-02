@@ -1,6 +1,7 @@
 # ESP32-Heos-Control
 Simple to use Heos Control for ESP32 / Arduino IDE
 It is developed for controlling the heos inside an Denon AVR.
+It uses HardwareTimer 2!
 
 depencies:
 ```
